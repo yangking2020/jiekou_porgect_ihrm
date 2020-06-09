@@ -1,0 +1,8 @@
+2020-06-08 20:23:04,238 INFO [root] [__init__.py(<module>:9)] - Test日志会不会打印！！！
+2020-06-08 20:23:05,025 INFO [root] [test02_ihrm_employee.py(test01_login_success:28)] - {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '5622624a-be73-44a5-b6bb-2b911e804247'}
+2020-06-08 20:23:05,026 INFO [root] [test02_ihrm_employee.py(test01_login_success:35)] - {'Content-Type': 'application/json', 'Authorization': 'Bearer 5622624a-be73-44a5-b6bb-2b911e804247'}
+2020-06-08 20:23:05,084 INFO [root] [test02_ihrm_employee.py(test02_add_emp:44)] - {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1269968279200333824'}}
+2020-06-08 20:23:05,084 INFO [root] [test02_ihrm_employee.py(test02_add_emp:48)] - 1269968279200333824
+2020-06-08 20:23:05,137 INFO [root] [test02_ihrm_employee.py(test03_query_emp:56)] - {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1269968279200333824', 'mobile': '19846111735', 'username': '杨c利02伟', 'password': '61e551d9408abb6f6baa00cb9ac23c56', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1063678149528784896', 'timeOfEntry': '2020-05-25T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-05-30T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '测试部', 'roleIds': [], 'staffPhoto': None}}
+2020-06-08 20:23:05,188 INFO [root] [test02_ihrm_employee.py(test04_modify_emp:64)] - {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1269968279200333824'}}
+2020-06-08 20:23:05,244 INFO [root] [test02_ihrm_employee.py(test05_delete_emp:72)] - {'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
