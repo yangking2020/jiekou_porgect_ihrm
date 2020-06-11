@@ -13,3 +13,4 @@ file_name = BASE_DIR +'/report/report.html'
 with open(file_name,'wb') as f:
     runner = HTMLTestRunner(f,title='ihrm测试报告',description='完美的报告')
     runner.run(suite)
+print('打印什么不重要,检测轮巡构建')
